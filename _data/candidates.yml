@@ -1,2 +1,9 @@
+- name: Molly Prather
+  seat: District Representative E
+  img: /assets/images/prather.jpg
 - name: Jason Corum
-  seat: District B
+  seat: District Representative B
+  img: /assets/images/corum.jpg
+- name: David Rocco
+  seat: Public Health & Safety
+  img: /assets/images/rocco.jpg

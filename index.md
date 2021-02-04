@@ -5,6 +5,4 @@ title: Los Feliz For Everyone
 layout: home
 ---
 
-<div class="col-12">
-  <h1>Why Hello There!</h1>
-</div>
+Here's where we say something BIG!

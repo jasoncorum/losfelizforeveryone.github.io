@@ -3,22 +3,44 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
-    <div class="container">
-      {% include header.html %}
-      <div class="intro-background">
-        <div class="row justify-content-center">
-          <div class="col-12">
-            {{ site.description }}
+    {% include header.html %}
+    <body>
+        <div class="intro-background">
+          <h1>{{ content }}</h1>
+        </div>
+        <div class="container">
+          <div class="candidates">
+            <h1>Candidates</h1>
+            <div class="row">
+            {% for candidate in site.data.candidates %}
+              <div class="col-sm">
+                <img src="{{candidate.img}}" class="mx-auto d-block" alt="{{candidate.name}}">
+                <h2>{{candidate.name}}</h2>
+                <p>{{candidate.seat}}</p>
+              </div>
+            {% endfor %}
+            </div>
+          </div>
+
+          <div class="platform">
+            <h1>Platform</h1>
+            <div class="row">
+            {% for platform in site.data.platform %}
+              <div class="col-sm platform-items">
+                <span class="material-icons">{{platform.icon}}</span>
+                <h2>{{platform.title}}</h2>
+                <p>{{platform.text}}</p>
+              </div>
+            {% endfor %}
+            </div>
+          </div>
+
+
+
+            <div id="footerbar" class="col-12">
+              {% include footer.html %}
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-12">
-        {{ content }}
-      </div>
-      <div id="footerbar" class="col-12">
-        {% include footer.html %}
-      </div>
-    </div>
   </body>
 </html>
