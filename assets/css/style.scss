@@ -60,11 +60,25 @@ p {
 }
 
 .navbar {
+  margin: 0;
   h1 {
-    color: #fff;
     margin: 0;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 2em;
   }
+  h2 {
+    margin: 0;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+  }
+}
+
+.navbar-brand {
+  margin: 0 80px;
 }
 
 .nav-item {
