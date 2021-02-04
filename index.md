@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Los Feliz For Everyone
 layout: home
+link: https://www.tinyurl.com/ncmib
 ---
 
-Here's where we say something BIG!
+Register To Vote For Your Neighborhood Council!

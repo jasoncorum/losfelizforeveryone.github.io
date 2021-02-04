@@ -5,6 +5,21 @@
 
 body {
   padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #00304f;
+}
+
+h1 {
+  font-size: 3em;
+  color: #00304f;
+}
+
+h2 {
+  color: #00304f;
+}
+
+p {
+  font-size: 1.25em;
 }
 
 .intro-background {
@@ -14,20 +29,34 @@ body {
   width: 100%;
   min-height: 500px;
   position: relative;
-  h1 {
-    color: #fff;
-    font-size: 3.5em;
+
+  .intro-feature {
     position: absolute;
     margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    h1 {
+      color: #fff;
+    }
+    .btn-info {
+      background-color: #f01414;
+      border: 3px solid #f01414;
+      font-size: 2em;
+      &:hover {
+        background-color: #00304f;
+        border: 3px solid #fff;
+        font-weight: normal;
+      }
+    }
   }
 }
 
 .navbar-custom {
   margin: 0;
-  background-color: rgb(240,20,20);
+  background-color: #f01414;
+  padding: 5px 15px;
 }
 
 .navbar {
@@ -39,8 +68,27 @@ body {
 }
 
 .nav-item {
+  margin: 0 5px;
   a {
     font-size: 1.5em;
+  }
+}
+
+.donate {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px 5px;
+  a {
+    color: #f01414 !important;
+  }
+  &:hover {
+    background-color: #00304f !important;
+  }
+}
+
+a.donate-link {
+  &:hover {
+    color: #fff !important;
   }
 }
 
@@ -49,13 +97,16 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: #fff;
+  &:hover {
+    font-weight: normal;
+    color: #00304f
+  }
 }
 
 .candidates {
   padding: 15px 0;
   text-align: center;
-  color: #00304f;
   h1 {
     font-size: 3em;
   }
@@ -68,9 +119,6 @@ body {
 .platform {
   padding: 15px;
   text-align: center;
-  h1 {
-    font-size: 3em;
-  }
   h2 {
     color: #fff;
   }
@@ -79,8 +127,8 @@ body {
   }
   .platform-items {
     color: #fff;
-    background-color: rgb(240,20,20);
-    border: 3px solid white;
+    background-color: #f01414;
+    border: 3px solid #fff;
     padding: 20px;
   }
 }
