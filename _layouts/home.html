@@ -14,7 +14,7 @@
             <div class="row">
             {% for candidate in site.data.candidates %}
               <div class="col-sm">
-                <img src="{{candidate.img}}" class="mx-auto d-block" alt="{{candidate.name}}">
+                <img src="{{candidate.img | relative_url }}" class="mx-auto d-block" alt="{{candidate.name}}">
                 <h2>{{candidate.name}}</h2>
                 <p>{{candidate.seat}}</p>
               </div>
