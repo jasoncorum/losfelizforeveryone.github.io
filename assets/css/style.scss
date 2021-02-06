@@ -78,7 +78,7 @@ p {
 }
 
 .navbar-brand {
-  margin: 0 80px;
+  margin: 0 50px;
 }
 
 .nav-item {
@@ -92,6 +92,8 @@ p {
   background-color: #fff;
   border-radius: .25rem;
   padding: 0px 5px;
+  max-width: 128px;
+  text-align: center;
   a {
     color: #f01414 !important;
   }
@@ -140,5 +142,11 @@ a.donate-link {
     background-color: #f01414;
     border: 3px solid #fff;
     padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-nav {
+    padding: 0 50px;
   }
 }
