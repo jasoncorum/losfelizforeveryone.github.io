@@ -17,7 +17,7 @@
           <a id="candidates"><h1>Candidates</h1></a>
           <div class="row">
           {% for candidate in site.data.candidates %}
-            <div class="col-sm">
+            <div class="col-sm-4">
               <img src="{{candidate.img | relative_url }}" class="mx-auto d-block" alt="{{candidate.name}}">
               <h2>{{candidate.name}}</h2>
               <p>{{candidate.seat}}</p>
@@ -30,7 +30,7 @@
           <a id="platform"><h1>Platform</h1></a>
           <div class="row">
           {% for platform in site.data.platform %}
-            <div class="col-sm platform-items">
+            <div class="col-sm-4 platform-items">
               <span class="material-icons">{{platform.icon}}</span>
               <h2>{{platform.title}}</h2>
               <p>{{platform.text}}</p>

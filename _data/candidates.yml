@@ -1,9 +1,15 @@
-- name: Molly Prather
-  seat: District Representative E
-  img: /assets/images/prather.jpg
+- name: Daniel Neilan
+  seat: District Representative A
+  img: /assets/images/neilan.jpg
 - name: Jason Corum
   seat: District Representative B
   img: /assets/images/corum.jpg
-- name: David Rocco
-  seat: Public Health & Safety
+- name: Lane McFaddin
+  seat: District Representative C
+  img: /assets/images/mcfaddin.jpg
+- name: Molly Prather
+  seat: District Representative E
+  img: /assets/images/prather.jpg
+- name: Danny Rocco
+  seat: Community Interest Representative&#58; Public Health and Safety
   img: /assets/images/rocco.jpg
