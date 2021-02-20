@@ -44,6 +44,7 @@ p {
       background-color: #f01414;
       border: 3px solid #f01414;
       font-size: 2em;
+      margin: 0 15px;
       &:hover {
         background-color: #00304f;
         border: 3px solid #fff;
@@ -119,9 +120,6 @@ a.donate-link {
 .candidates {
   padding: 15px 0;
   text-align: center;
-  h1 {
-    font-size: 3em;
-  }
   h2 {
     font-size: 1.5em;
     margin: 0;
@@ -142,6 +140,14 @@ a.donate-link {
     background-color: #f01414;
     border: 3px solid #fff;
     padding: 20px;
+  }
+}
+
+.voting {
+  padding: 15px;
+  text-align: center;
+  h2 {
+    font-size: 2em;
   }
 }
 
