@@ -22,6 +22,14 @@ p {
   font-size: 1.25em;
 }
 
+.promo {
+  text-align: center;
+  p {
+    padding: 10px;
+    margin: 0;
+  }
+}
+
 .intro-background {
   background: url("../images/griffith.jpg") no-repeat;
   background-position: center center;
