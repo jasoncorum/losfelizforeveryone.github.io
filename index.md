@@ -7,4 +7,4 @@ pdf_link: https://docs.google.com/document/d/1DfEaZH0ddZmW8zzbjW-0rhL4VTd9QzC2by
 online_link: https://clerkappsele.lacity.org/NCElection/voter/login
 ---
 
-Vote-By-Mail Registration Ends 3/30. Register Today!
+Mail-in ballots must be postmarked by April 6!
